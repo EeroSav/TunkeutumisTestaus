@@ -4,7 +4,7 @@ Sieppaa ja analysoi verkkoliikennettä.
 
 analysoin verkkoliikennettä firefoxin network työkalulla jonka sain auki f12 nappia painamalla.
 
-![TTPictures/H0-1.png]()
+![](TTPictures/H0-1.png)
 
 Kaikki get pyyntöjä, 
 304 client redirection message
@@ -12,7 +12,7 @@ Kaikki get pyyntöjä,
 
 avatussa get pyynnössä pyydetty tiedosto `/portal/wikipedia.org/assets/js/index-86c7e2579d.js`
 
-![TTPictures/H0-2.png]()
+![](TTPictures/H0-2.png)
 
 
 age:2758
@@ -23,9 +23,11 @@ The Age header is usually close to zero. If it is Age: 0, it was probably fetche
 
 Koska haettu etusivu, ei vastausta ole tarvittu päivittää serveriltä vaan se on ollut tallessa proxy palvelimella.
 
-![TTPictures/H0-3.png]()
+![](TTPictures/H0-3.png)
 
 lisää tutkittuani oletin että ensimmäinen 304 redirect pyyntö oli oleellisempi analysoitava  
 
 filename: oikea etusivu ja age 80106 vastaa muutamaa päivää  
 Address: palvelimen osoite  
+
+lähteet: https://firefox-source-docs.mozilla.org/devtools-user/network_monitor/index.html
