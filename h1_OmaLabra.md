@@ -27,9 +27,9 @@
 
 2.4 7:15 
 
-Virtualbox Host:
-	OS: Debian GNU/Linux 11 (bullseye) x86_64 
-	Host: Aspire A515-55G V1.08 
+Virtualbox Host:  
+- OS: Debian GNU/Linux 11 (bullseye) x86_64 
+- Host: Aspire A515-55G V1.08 
 
 ## a, b ja c
 a) Asenna Kali virtuaalikoneeseen
@@ -46,14 +46,10 @@ Virtualboxissa uusi virtuaalikone- nimi kali levykuvaksi juuri ladattu kali 2023
 
 laitoin kalin asentumaan taustalle ja jatkoin metasploitablen asennusta.
 
-metasploitable2
-
-new
-
 Type: Linux
 Version: Other Linux(64-bit)
 
-Hard disk - Use an existing virtual ahrd disk file
+Hard disk - Use an existing virtual hard disk file tähän valitsin aiemmin ladatun metasploitable tiedoston
 
 ![](TTPictures/T1b.png)
 
