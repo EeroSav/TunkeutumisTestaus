@@ -75,12 +75,22 @@ pingasin metasploitable ip osoitetta kalista jolla sain varmistuksen että host 
 	ping 192.168.56.102
 	PING 192.168.56.102 (192.168.56.102) 56(84) bytes of data.
 
+käynnistin msfdb - metasploit database
+
 	sudo msfdb run
+
 	db_status
+	[*] Connected to msf. Connection type: postgresql.
+	
+tein uuden työtilan nimellä metasploitable-2 
+	
+	workspace -a metasploitable-2
+	
+*en ollut vaihtanut työtilaa joten skannauksen tulokset löytyivätkin default tilasta. 
+	
 
-aloitin tutkimalla maalikoneen aukinaisia portteja, skannasin ne komennolla db_nmap -A 192.168.56.102
+aloitin tutkimalla maalikoneen aukinaisia portteja, skannasin ne komennolla db_nmap -A 192.168.56.102, ne tallentuivat työtilaan ja avasin ne komennolla `services`
 
-	services
 	
 	host            port  proto  name         state  info
 	----            ----  -----  ----         -----  ----
